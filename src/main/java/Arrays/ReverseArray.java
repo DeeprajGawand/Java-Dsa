@@ -4,19 +4,17 @@ public class ReverseArray {
     public static void main(String[] args) {
         int []array = {1,2,3,4,5,6,7};
 
-        int first = 0;
-        int last = array.length-1;
-
-        while (first<last){
-            int temp =  array[first];
-            array[first] = array[last];
-            array[last]= temp;
-
-            first++;
-            last--;
+        int start = 0;
+        int end = array.length-1;
+        while (start<end){
+            int temp = array[start];
+            array[start]=array[end];
+            array[end]= temp;
+            start++;
+            end--;
         }
-        for (int i =0; i<array.length; i++) {
-            System.out.print(array[i] +" ");
+        for (int num : array){
+            System.out.print(num+" ");
         }
     }
 }

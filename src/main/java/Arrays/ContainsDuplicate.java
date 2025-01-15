@@ -6,14 +6,21 @@ public class ContainsDuplicate {
     public static void main(String[] args) {
         int array [] = {1,2,3,1};
         HashMap<Integer,Integer>map=new HashMap();
+        boolean containsdup = false;
 
         for (int i =0;i < array.length;i++){
-            map.putIfAbsent(array[i],0);
-            map.put(array[i], map.get(array[i])+1);
-            if (map.get(array[i]) > 1){
-                System.out.println("contains duplicate ");
+            if(map.containsKey(array[i])){
+                map.put(array[i],map.get(array[i]+1) );
+                containsdup = true;
+                break;
 
+            }else {
+                map.put(array[i],1 );
             }
+
+        }
+        if(containsdup){
+            System.out.println("contains duplicate");
         }
 
 

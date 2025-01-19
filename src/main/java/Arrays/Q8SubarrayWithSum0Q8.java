@@ -4,7 +4,7 @@ import java.util.HashSet;
 //so we are adding each elements in array if the elements get repeat we say it has subarray whose sum is 0
 //for example at index 0 we have 4 and after adding till index 3 that is 1 we get answer 4 so it contains subarrya
 //whose sum is 0
-public class SubarrayWithSum0Q8 {
+public class Q8SubarrayWithSum0Q8 {
     public static void main(String[] args) {
         int[] arr = {4, 2, -3, 1, 6};
 //        int sum =0;

@@ -2,7 +2,7 @@ package Arrays;
 //6.	Kadane's Algorithm (maximum subarray sum).6.	Kadane's Algorithm (maximum subarray sum).
 //https://www.youtube.com/watch?v=usxn9PV6Fdo&t=235s
 
-public class MaximumSubarrayQ6 {
+public class Q6MaximumSubarray {
     public static void main(String[] args) {
          int array [] ={-2,1,-3,4,-1,2,1,-5,4};
 

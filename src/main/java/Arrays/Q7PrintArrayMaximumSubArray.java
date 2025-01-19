@@ -1,6 +1,6 @@
 package Arrays;
 
-public class PrintArrayMaximumSubArrayQ7 {
+public class Q7PrintArrayMaximumSubArray {
     public static void main(String[] args) {
         int array [] ={-2,1,-3,4,-1,2,1,-5,4};
 

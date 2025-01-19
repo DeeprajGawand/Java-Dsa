@@ -1,6 +1,6 @@
 package Arrays;
 
-public class BestTimeToBuyandSell {
+public class Q12BestTimeToBuyandSell {
     public static void main(String[] args) {
 //       int [] prices = {8,7,1,5,3,6,4};
 //

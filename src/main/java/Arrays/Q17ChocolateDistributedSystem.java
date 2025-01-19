@@ -17,7 +17,7 @@ import java.util.Arrays;
 //
 //        Input : arr[] = {3, 4, 1, 9, 56, 7, 9, 12} , m = 5
 //        Output: Minimum Difference is 6
-public class ChocolateDistributedSystem {
+public class Q17ChocolateDistributedSystem {
     public static void main(String[] args) {
 
         int arr[] = {3, 4, 1, 9, 56, 7, 9, 12};

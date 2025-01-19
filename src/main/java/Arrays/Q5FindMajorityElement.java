@@ -4,7 +4,7 @@ package Arrays;
 
 //https://www.youtube.com/watch?v=1r8kzrXJiUk
 //Moores voting algorithm ---it has two parts a.find the candidate element to be majority b.confrim weather it is majority
-public class FindMajorityElement {
+public class Q5FindMajorityElement {
     public static void main(String[] args) {
 
         int [] arr ={1,2,1,2,1,2,1,2,2};

@@ -1,10 +1,8 @@
 package Arrays;
 
-import java.util.Arrays;
-
 //Given an array which consists of only 0, 1 and 2. Sort the array without using any sorting algo
 //https://www.youtube.com/watch?v=6sMssUHgaBs
-public class SortArrayContain012DutchNationalFlag {
+public class Q4SortArrayContain012DutchNationalFlag {
     public static void main(String[] args) {
        int arr[] = {0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1};
 

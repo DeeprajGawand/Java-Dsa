@@ -1,9 +1,7 @@
 package Arrays;
 
-import java.util.Arrays;
-
 //Move all the negative elements to one side of the array
-public class LoveBabbarQ5 {
+public class Q15MoveAllNegativeElementsToOneSide {
     public static void main(String[] args) {
 //        int [] neg = new int[];
         int [] arr =  {-12, 11, -13, -5, 6, -7, 5, -3, -6};

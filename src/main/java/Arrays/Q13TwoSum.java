@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.HashMap;
 
-public class TwoSum {
+public class Q13TwoSum {
     public static void main(String[] args) {
         int [] arr ={2,7,11,15};
         int target = 9;

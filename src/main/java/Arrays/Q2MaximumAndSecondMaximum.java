@@ -1,6 +1,6 @@
 package Arrays;
 
-public class MaximumAndSecondMaximum {
+public class Q2MaximumAndSecondMaximum {
     public static void main(String[] args) {
         int [] arr ={2,3,4,1,7,8,3,42,42};
          int max = Integer.MIN_VALUE;
